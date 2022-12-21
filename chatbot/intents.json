@@ -1,0 +1,155 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which products do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "I can build you any kind of software product!",
+        "We can build you website, mobile application, data products, streaming services."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We accept UPI payments also."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "status",
+      "patterns": [
+        "How are you?",
+        "How do you do",
+        "How are you doing"
+      ],
+      "responses": [
+        "Fantastic!",
+        "Feeling relaxed",
+        "Good"
+      ]
+    },
+    {
+      "tag": "linkedin",
+      "patterns": [
+        "linkedin address",
+        "What is your linkedin username?"
+      ],
+      "responses": [
+        "LinkedIn link"
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "How can i send you email",
+        "email id?",
+        "where can i send you information"
+      ],
+      "responses": [
+        "You can send me mail on abc@gmail.com",
+        "ping me on abc@gmail.com"
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "skills",
+        "What are you expertise into?",
+        "what you can do best?"
+      ],
+      "responses": [
+        "I am good in Python, Django, Machine Learning, Data Modeling",
+        "Software Engineering Rocks!."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you from?",
+        "Where do you stay?",
+        "Where you belong?",
+        "Where do you live"
+      ],
+      "responses": [
+        "Delhi"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "what are your hobbies",
+        "What you do in your free time"
+      ],
+      "responses": [
+        "i love coding",
+        "i often work on personal projects"
+      ]
+    }
+
+  ]
+}

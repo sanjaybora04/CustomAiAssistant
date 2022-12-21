@@ -1,0 +1,27 @@
+beautifulsoup4==4.9.1
+bs4==0.0.1
+certifi==2020.6.20
+chardet==3.0.4
+click==7.1.2
+emoji==0.5.4
+Flask==1.1.2
+future==0.18.2
+idna==2.10
+itsdangerous==1.1.0
+Jinja2==2.11.3
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+MarkupSafe==1.1.1
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+numpy==1.18.5
+progressbar==2.5
+regex @ file:///tmp/build/80754af9/regex_1593435547652/work
+requests==2.24.0
+six==1.15.0
+soupsieve==2.0.1
+torch==1.5.1
+tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
+urllib3==1.25.10
+Werkzeug==1.0.1

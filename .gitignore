@@ -1,0 +1,5 @@
+*.log
+
+projectenv/
+
+__pycache/
