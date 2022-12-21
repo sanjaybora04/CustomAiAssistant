@@ -2,4 +2,6 @@
 
 projectenv/
 
-__pycache/
+__pycache__/
+
+chatbot/train.py
