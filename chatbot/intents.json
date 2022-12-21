@@ -4,10 +4,14 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
+        "Hi there",
+        "Is anyone there",
+        "How are you",
         "Hey",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hola",
+        "Yo",
+        "Good Day"
       ],
       "responses": [
         "Hey :-)",
@@ -31,123 +35,79 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
-      "patterns": [
-        "Which products do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
+      "tag": "no answer",
+      "patterns": [],
       "responses": [
-        "I can build you any kind of software product!",
-        "We can build you website, mobile application, data products, streaming services."
+        "Sorry I didn't understand, can you put it in some other way",
+        "I didn't understand"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "options",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What can you do",
+        "How can you help me",
+        "What help can you provide"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal",
-        "We accept UPI payments also."
+        "I can play music, send mails and do many other tasks like that"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "identity",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "who are you",
+        "What is your name"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I am Joshua, nice to meet you",
+        "My name is Joshua"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "insult",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "you are dumb",
+        "you are a fool",
+        "fuck off",
+        "shut up",
+        "idiot"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Well that hurts :("
       ]
     },
     {
-      "tag": "status",
+      "tag": "time_and_date",
       "patterns": [
-        "How are you?",
-        "How do you do",
-        "How are you doing"
+        "What time is it",
+        "What data is today",
+        "which day is today"
       ],
       "responses": [
-        "Fantastic!",
-        "Feeling relaxed",
-        "Good"
+        "Today is ..."
       ]
     },
     {
-      "tag": "linkedin",
+      "tag": "weather",
       "patterns": [
-        "linkedin address",
-        "What is your linkedin username?"
+        "temperature",
+        "weather",
+        "how hot is it"
       ],
       "responses": [
-        "LinkedIn link"
+        "..."
       ]
     },
     {
-      "tag": "email",
+      "tag": "send_mail",
       "patterns": [
-        "How can i send you email",
-        "email id?",
-        "where can i send you information"
+        "send mail",
+        "send email to",
+        "mail"
       ],
       "responses": [
-        "You can send me mail on abc@gmail.com",
-        "ping me on abc@gmail.com"
-      ]
-    },
-    {
-      "tag": "skills",
-      "patterns": [
-        "skills",
-        "What are you expertise into?",
-        "what you can do best?"
-      ],
-      "responses": [
-        "I am good in Python, Django, Machine Learning, Data Modeling",
-        "Software Engineering Rocks!."
-      ]
-    },
-    {
-      "tag": "location",
-      "patterns": [
-        "Where are you from?",
-        "Where do you stay?",
-        "Where you belong?",
-        "Where do you live"
-      ],
-      "responses": [
-        "Delhi"
-      ]
-    },
-    {
-      "tag": "hobbies",
-      "patterns": [
-        "what are your hobbies",
-        "What you do in your free time"
-      ],
-      "responses": [
-        "i love coding",
-        "i often work on personal projects"
+        "..."
       ]
     }
 
