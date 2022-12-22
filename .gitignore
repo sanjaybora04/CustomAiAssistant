@@ -1,6 +1,6 @@
 *.log
 
-projectenv/
+env/
 
 __pycache__/
 

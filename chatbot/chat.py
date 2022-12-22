@@ -1,5 +1,5 @@
 import random
-import importlib
+import importlib_resources
 import torch
 import json
 from .nltk_utils import bag_of_words, tokenize
@@ -9,11 +9,11 @@ from . import modules
 # Loading model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with importlib.resources.open_text("chatbot", "intents.json") as f:
+with importlib_resources.open_text("chatbot", "intents.json") as f:
     intents = json.load(f)
 
 FILE = "data.pth"
-with importlib.resources.Path("chatbot",FILE) as f:
+with importlib_resources.path("chatbot",FILE) as f:
     data = torch.load(f)
 
 input_size = data["input_size"]
