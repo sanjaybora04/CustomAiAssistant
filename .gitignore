@@ -3,5 +3,3 @@
 env/
 
 __pycache__/
-
-chatbot/train.py

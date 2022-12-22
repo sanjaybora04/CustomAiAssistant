@@ -47,6 +47,8 @@ def reply(sentence):
     if prob.item() > 0.75:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
+                if intent["responses"][0] == "module":
+                    return (f"{bot_name}: {modules.module.run(tag)}")
                 return (f"{bot_name}: {random.choice(intent['responses'])}")
     else:
         return (f"{bot_name}: I do not understand...")

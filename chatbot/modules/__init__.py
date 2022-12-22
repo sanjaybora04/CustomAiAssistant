@@ -1,1 +1,1 @@
-from time import time
+from . import module

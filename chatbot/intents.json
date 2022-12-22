@@ -78,36 +78,47 @@
       ]
     },
     {
-      "tag": "time_and_date",
-      "patterns": [
-        "What time is it",
-        "What data is today",
-        "which day is today"
+      "tag": "moduleinfo",
+      "patterns":[
+        "How to make a module",
+        "I want to add a function"
       ],
       "responses": [
-        "Today is ..."
+        "If you want to add a function do this :-"
       ]
     },
     {
-      "tag": "weather",
+      "tag": "DateAndTime",
+      "patterns": [
+        "What time is it",
+        "What data is today",
+        "which day is today",
+        "Whats the time"
+      ],
+      "responses": [
+        "module"
+      ]
+    },
+    {
+      "tag": "Weather",
       "patterns": [
         "temperature",
         "weather",
         "how hot is it"
       ],
       "responses": [
-        "..."
+        "module"
       ]
     },
     {
-      "tag": "send_mail",
+      "tag": "SendMail",
       "patterns": [
         "send mail",
         "send email to",
         "mail"
       ],
       "responses": [
-        "..."
+        "module"
       ]
     }
 
