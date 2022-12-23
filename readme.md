@@ -51,7 +51,7 @@ You can customize its responses and you can defines modules to automate somethin
   * ### For customising modules :-
     
     * For adding custom modules first you have to configure intents.json as mentioned(but inside responses you have to enter "module" to use the command to fire a module) as shown in image below
-    ![image](readmeContent/intentjson2.png)
+    ![image](readmeContent/intentJson2.png)
     * Now make a python file inside "chatbot/modules" named same as the tag you entered in the intent. **For Example** :- In the above image for DateAndTime intent you have to make a file named "DateAndTime.py" inside the module folder
     * Now as shown in image below make function reply() in your module and return the string you want the AI to give as response.
     ![image](readmeContent/module.png)
