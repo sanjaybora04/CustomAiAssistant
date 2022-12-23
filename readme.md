@@ -58,8 +58,6 @@ You can customize its responses and you can defines modules to automate somethin
     * The returned string will be returned by the chatbot as a response and you can also perform other tasks in the function such as playing music, opening apps ,etc as well
     ![image](readmeContent/song.png)
     As you can see in this module a song is being played and "Playing song.mp3" is returned as a string
-    * Let's see one more example to be clear
-    ![image](readmeContent/sendMail.png) 
     * This module is using user's email credentials to send an email to someones email address
     ```
     Note: Don't forget to run train.py each time if you make any changes to "intents.json"
