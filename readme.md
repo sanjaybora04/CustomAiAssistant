@@ -1,12 +1,14 @@
 # CustomAi Assistant
+This is a customizable Ai Assistant which uses Artificial Neural Networks(ANN) based Intent recognition system to recognize the intent of user input.
+You can customize its responses and you can defines modules to automate something for your personal use. 
 
-* ## To see how it works and how to use it see this video :-
-TODO :- youtube link
+* ## Video tutorial :-
+ [![Alt text](readmeContent/thumbnail.png)](link)
 
 * ## How to use :-
   * Clone the repository
   ```shell
-  git clone https://github.com/sanjaybora04/CustomAiAssistant
+  git clone https://github.com/sanjaybora04/hackathon
   ```
   * Build virtual environment (Optional)
   ```shell

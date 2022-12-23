@@ -50,7 +50,7 @@
         "What help can you provide"
       ],
       "responses": [
-        "I can play music, send mails and do many other tasks like that"
+        "you can costumize me to do or response in any way you want, please refer to https://github.com/sanjaybora04/hackathon"
       ]
     },
     {
@@ -84,7 +84,7 @@
         "I want to add a function"
       ],
       "responses": [
-        "If you want to add a function do this :-"
+        "If you want to add a module please refer to https://github.com/sanjaybora04/hackathon"
       ]
     },
     {
@@ -104,23 +104,13 @@
       "patterns": [
         "temperature",
         "weather",
-        "how hot is it"
-      ],
-      "responses": [
-        "module"
-      ]
-    },
-    {
-      "tag": "SendMail",
-      "patterns": [
-        "send mail",
-        "send email to",
-        "mail"
+        "how hot is it",
+        "How is weather",
+        "what is weather"
       ],
       "responses": [
         "module"
       ]
     }
-
   ]
 }

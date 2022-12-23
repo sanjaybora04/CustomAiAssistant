@@ -64,7 +64,7 @@ output_size = len(tags)
 hidden_size = output_size
 batch_size = output_size
 learning_rate = 0.001
-num_epochs = 2000
+num_epochs = 5000
 
 print("all_words length: %s" % len(all_words))
 print("X_train[0] length: %s" % len(X_train[0]))
@@ -80,7 +80,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 for epoch in range(num_epochs):
-    for (words, labels) in train_loader:
+    for (words,labels) in train_loader:
         words = words.to(device)
         labels = labels.to(device)
 
