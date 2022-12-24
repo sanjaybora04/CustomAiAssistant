@@ -36,8 +36,6 @@ You can customize its responses and you can defines modules to automate somethin
     print(chatbot.chat.reply(sentence))
   ```
   
-  while true:
-    sentence = 
 * ## Configuration (if you want to customize the Assistant) :- 
   * ### For customising responses :-
     * To customise responses for assistant "chatbot/intent.json" has to be modified.
