@@ -32,7 +32,7 @@
     },
     {
       "tag": "no answer",
-      "patterns": ["","",""],
+      "patterns": [""],
       "responses": [
         "Sorry I didn't understand, can you put it in some other way",
         "I didn't understand"
@@ -43,10 +43,12 @@
       "patterns": [
         "What can you do",
         "How can you help me",
-        "What help can you provide"
+        "What help can you provide",
+        "How to make a module",
+        "I want to add a function"
       ],
       "responses": [
-        "you can costumize me to do anything or response in any way you want, you can get help here :- https://github.com/sanjaybora04/hackathon/readme.md"
+        "you can costumize me to do anything or response in any way you want, you can get help here :- https://github.com/sanjaybora04/CustomAiAssistant/blob/main/readme.md"
       ]
     },
     {
@@ -70,16 +72,6 @@
       ],
       "responses": [
         "Well that hurts :("
-      ]
-    },
-    {
-      "tag": "moduleinfo",
-      "patterns":[
-        "How to make a module",
-        "I want to add a function"
-      ],
-      "responses": [
-        "If you want to add a module please refer to https://github.com/sanjaybora04/hackathon"
       ]
     },
     {
