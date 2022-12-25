@@ -70,7 +70,7 @@ print("all_words length: %s" % len(all_words))
 print("X_train[0] length: %s" % len(X_train[0]))
 
 dataset = ChatDataset()
-train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=2)
+train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = NeuralNet(input_size, hidden_size, output_size)
