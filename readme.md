@@ -1,5 +1,5 @@
 # CustomAi Assistant
-This is a customizable Ai Assistant which uses Artificial Neural Networks(ANN) based Intent recognition system to recognize the intent of user input.
+This is a customizable Ai Assistant which uses Artificial Neural Networks(ANN) based Intent recognition to recognize the intent of user input.
 You can customize its responses and you can defines modules to automate something for your personal use. 
 
 * ## Video tutorial :-
