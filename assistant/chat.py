@@ -9,11 +9,11 @@ from . import modules
 # Loading model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with importlib_resources.open_text("chatbot", "intents.json") as f:
+with importlib_resources.open_text("assistant", "intents.json") as f:
     intents = json.load(f)
 
 FILE = "data.pth"
-with importlib_resources.path("chatbot",FILE) as f:
+with importlib_resources.path("assistant",FILE) as f:
     data = torch.load(f)
 
 input_size = data["input_size"]
@@ -29,6 +29,9 @@ model.eval()
 
 
 def reply(sentence):
+    r"""
+    pass input string to this function and get a string as response
+    """
     sentence_tokens = tokenize(sentence)
     X = bag_of_words(sentence_tokens, all_words)
     X = X.reshape(1, X.shape[0])
@@ -48,4 +51,4 @@ def reply(sentence):
                     return modules.module.run(tag,sentence)
                 return random.choice(intent['responses'])
     else:
-        return ("I do not understand...")
+        return ("I didn't understand...")

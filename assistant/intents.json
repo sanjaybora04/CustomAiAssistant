@@ -27,12 +27,12 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": ["Thank you", "That's nice of you", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
       "tag": "no answer",
-      "patterns": [],
+      "patterns": ["","",""],
       "responses": [
         "Sorry I didn't understand, can you put it in some other way",
         "I didn't understand"
