@@ -8,7 +8,7 @@ You can customize its responses and you can defines modules to automate tasks fo
 * ## How to use :-
   * Clone the repository
   ```shell
-  git clone https://github.com/sanjaybora04/CustomAiAssistant
+  git clone git@github.com:sanjaybora04/CustomAiAssistant.git
   ```
   * Build virtual environment (Optional)
   ```shell
