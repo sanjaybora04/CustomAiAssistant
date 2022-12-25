@@ -27,9 +27,6 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-# chat
-bot_name = "Joshua"
-
 
 def reply(sentence):
     sentence = tokenize(sentence)
@@ -48,7 +45,7 @@ def reply(sentence):
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 if intent["responses"][0] == "module":
-                    return (f"{bot_name}: {modules.module.run(tag)}")
-                return (f"{bot_name}: {random.choice(intent['responses'])}")
+                    return modules.module.run(tag)
+                return random.choice(intent['responses'])
     else:
-        return (f"{bot_name}: I do not understand...")
+        return ("I do not understand...")
