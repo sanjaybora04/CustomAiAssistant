@@ -5,13 +5,9 @@
       "patterns": [
         "Hi",
         "Hi there",
-        "Is anyone there",
-        "How are you",
-        "Hey",
         "Hello",
-        "Hola",
-        "Yo",
-        "Good Day"
+        "Hey",
+        "Yo"
       ],
       "responses": [
         "Hey :-)",
@@ -50,7 +46,7 @@
         "What help can you provide"
       ],
       "responses": [
-        "you can costumize me to do or response in any way you want, please refer to https://github.com/sanjaybora04/hackathon"
+        "you can costumize me to do anything or response in any way you want, you can get help here :- https://github.com/sanjaybora04/hackathon/readme.md"
       ]
     },
     {
@@ -60,8 +56,7 @@
         "What is your name"
       ],
       "responses": [
-        "I am Joshua, nice to meet you",
-        "My name is Joshua"
+        "I am your personal assistant, you can call me anything you like"
       ]
     },
     {
@@ -69,7 +64,7 @@
       "patterns": [
         "you are dumb",
         "you are a fool",
-        "fuck off",
+        "you are useless",
         "shut up",
         "idiot"
       ],
@@ -94,19 +89,6 @@
         "What data is today",
         "which day is today",
         "Whats the time"
-      ],
-      "responses": [
-        "module"
-      ]
-    },
-    {
-      "tag": "Weather",
-      "patterns": [
-        "temperature",
-        "weather",
-        "how hot is it",
-        "How is weather",
-        "what is weather"
       ],
       "responses": [
         "module"

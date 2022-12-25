@@ -29,8 +29,8 @@ model.eval()
 
 
 def reply(sentence):
-    sentence = tokenize(sentence)
-    X = bag_of_words(sentence, all_words)
+    sentence_tokens = tokenize(sentence)
+    X = bag_of_words(sentence_tokens, all_words)
     X = X.reshape(1, X.shape[0])
     X = torch.from_numpy(X)
 
@@ -45,7 +45,7 @@ def reply(sentence):
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 if intent["responses"][0] == "module":
-                    return modules.module.run(tag)
+                    return modules.module.run(tag,sentence)
                 return random.choice(intent['responses'])
     else:
         return ("I do not understand...")
