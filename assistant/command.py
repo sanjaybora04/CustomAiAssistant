@@ -44,11 +44,11 @@ def reply(sentence):
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
 
-    if prob.item() > 0.75:
+    if prob.item() > 0.5:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 if intent["responses"][0] == "module":
                     return modules.module.run(tag,sentence)
                 return random.choice(intent['responses'])
     else:
-        return ("I didn't understand...")
+        return ("I didn't understand...can you be more specific?")

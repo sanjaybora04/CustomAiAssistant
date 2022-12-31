@@ -3,6 +3,7 @@
     {
       "tag": "greeting",
       "patterns": [
+        "hai",
         "Hi",
         "Hi there",
         "Hello",
@@ -10,7 +11,7 @@
         "Yo"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -34,8 +35,7 @@
       "tag": "no answer",
       "patterns": [""],
       "responses": [
-        "Sorry I didn't understand, can you put it in some other way",
-        "I didn't understand"
+        "Sorry I didn't understand, can you put it in some other way?"
       ]
     },
     {
@@ -80,11 +80,22 @@
         "What time is it",
         "What data is today",
         "which day is today",
-        "Whats the time"
+        "Whats the time",
+        "Can you tell me time"
       ],
       "responses": [
         "module"
       ]
+    },
+    {
+      "tag": "Led",
+      "patterns": [
+        "Turn on the Led",
+        "Turn off Led",
+        "Can you turn on Light",
+        "Please turn on the Lights"
+      ],
+      "responses":["module"]
     }
   ]
 }

@@ -8,7 +8,7 @@ You can customize its responses and you can defines modules to automate tasks fo
 * ## How to use :-
   * Clone the repository
   ```shell
-  git clone git@github.com:sanjaybora04/CustomAiAssistant.git
+  git clone https://github.com/sanjaybora04/CustomAiAssistant
   ```
   * Build virtual environment (Optional)
   ```shell
@@ -24,9 +24,11 @@ You can customize its responses and you can defines modules to automate tasks fo
   pip install -r requirements.txt
   ```
   * Now your Ai Assistant is ready to use
-  * Now run "tryassistant.py" to chat with your assistant.
-    >You can add voice recognition by modifying "tryassistant.py",</br>
-    > and you can run it as service to make it run automatically when you start your device
+  * Now run "app.py" to start the server
+    * To use web client just hit http://120.0.0.1:5000/ in your browser
+    * To use command line client just run "client/cliClient.py"
+    * If you want to use voice client use "client/voiceClient.py", you have to install pyaudio,pyttsx and voiceRecognition for that</br>
+    >If you are not running the server in localhost the change the url in client file
 ---
   
 * ## Configuration (if you want to customize the Assistant) :- 
