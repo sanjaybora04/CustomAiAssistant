@@ -83,6 +83,7 @@ for epoch in range(num_epochs):
     for (words,labels) in train_loader:
         words = words.to(device)
         labels = labels.to(device)
+        labels = labels.type(torch.LongTensor)
 
         # forward
         outputs = model(words)
