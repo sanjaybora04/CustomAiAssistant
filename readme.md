@@ -2,8 +2,8 @@
 This is a customizable Ai Assistant which uses Artificial Neural Networks(ANN) based Intent recognition to recognize the intent of user input.
 You can customize its responses and you can defines modules to automate tasks for your personal use.
 
-* ## Video tutorial :- (Comming Soon...)
-<!---[![Alt text](readmeContent/thumbnail.png)](link)</br>-->
+# [Try Now...](https://sanjaybora.ml/?chatbox)
+
 
 * ## How to use :-
   * Clone the repository
