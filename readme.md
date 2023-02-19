@@ -55,3 +55,7 @@ You can customize its responses and you can defines modules to automate tasks fo
     * Lets take one more example of a module that repeats what you said:-</br>
     ![image](readmeContent/repeat.png)
     >Note: Don't forget to run train.py each time you make any change to "intents.json"
+
+---
+# Todos:-
+* use transformers to train the model
